@@ -2,3 +2,4 @@ Im Amalina
 and I am a coder!
 hello 
 im adding new line overwriting stashed line
+just a test on stash!
