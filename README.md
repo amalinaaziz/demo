@@ -6,7 +6,23 @@ I'm Amalina and this is a test repository on using version control system GIT wi
 
 I am more familiar with bitbucket but this works pretty much the same!
 
-Next: I'm going to try stash. 
-When you have uncommitted files and you want to work on something else or pull remote files that are conflicting with current changes, use stash!
-
-Update: I tried stash and been using it in my development. Such an useful feature!
+Here are the Git commands which are being covered:
+* git config
+* git init
+* git clone
+* git add
+* git commit
+* git diff
+* git reset
+* git status
+* git rm
+* git log
+* git show
+* git tag
+* git branch
+* git checkout
+* git merge
+* git remote
+* git push
+* git pull
+* git stash
