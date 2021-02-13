@@ -26,3 +26,5 @@ Here are the Git commands which are being covered:
 * git push
 * git pull
 * git stash
+
+In the repo also include some files that I used for ES6 practices!
