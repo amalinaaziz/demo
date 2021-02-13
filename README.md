@@ -27,4 +27,7 @@ Here are the Git commands which are being covered:
 * git pull
 * git stash
 
-In the repo also include some files that I used for ES6 practices!
+In the repo also include some files that I used for ES6 practices! ES6 included are:
+* promise
+* fetch 
+* set
