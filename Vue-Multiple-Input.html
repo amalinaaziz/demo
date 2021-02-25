@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Vue add multiple input</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.js"></script>
+</head>
+<body>
+<div id="app">
+  <h1>Finds</h1>
+  <div v-for="(find, index) in finds">
+    <input v-model="find.value">
+  </div>
+  <button @click="addFind">
+    New Find
+  </button>
+  <pre>{{ $data }}</pre>
+</div>
+<script>
+new Vue({
+  el: '#app',
+  data: {
+    finds: [] 
+  },
+  methods: {
+    addFind: function () {
+      this.finds.push({ value: '' });
+    }
+  }
+});
+</script>
+</body>
+</html>
